@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E038D1F613AFA411000361B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038D1F513AFA411000361B0 /* Cocoa.framework */; };
+		E038D20013AFA411000361B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E038D1FE13AFA411000361B0 /* InfoPlist.strings */; };
+		E038D20213AFA411000361B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E038D20113AFA411000361B0 /* main.m */; };
+		E038D20613AFA411000361B0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E038D20413AFA411000361B0 /* Credits.rtf */; };
+		E038D20913AFA411000361B0 /* ResizeHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E038D20813AFA411000361B0 /* ResizeHDAppDelegate.m */; };
+		E038D20C13AFA412000361B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E038D20A13AFA412000361B0 /* MainMenu.xib */; };
+		E038D21413AFA412000361B0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038D21313AFA412000361B0 /* SenTestingKit.framework */; };
+		E038D21513AFA412000361B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038D1F513AFA411000361B0 /* Cocoa.framework */; };
+		E038D21D13AFA412000361B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E038D21B13AFA412000361B0 /* InfoPlist.strings */; };
+		E038D21F13AFA412000361B0 /* ResizeHDTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E038D21E13AFA412000361B0 /* ResizeHDTests.h */; };
+		E038D22113AFA412000361B0 /* ResizeHDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E038D22013AFA412000361B0 /* ResizeHDTests.m */; };
+		E0AF0BF613AFC9CE00D54FE2 /* Empty.png in Resources */ = {isa = PBXBuildFile; fileRef = E0AF0BF513AFC9CE00D54FE2 /* Empty.png */; };
+		E0AF0BF813AFCAFA00D54FE2 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E0AF0BF713AFCAFA00D54FE2 /* arrow.png */; };
+		E0DE1DD613B0899300823DE5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0DE1DD513B0899200823DE5 /* Icon.png */; };
+		E0DE1DD913B08ADE00823DE5 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E0DE1DD813B08ADE00823DE5 /* Icon.icns */; };
+		E0EDB46513B1207A00C119F8 /* resizeHD.pxm in Resources */ = {isa = PBXBuildFile; fileRef = E0EDB46413B1207A00C119F8 /* resizeHD.pxm */; };
+		E0EFD86B13AFA9AE00948CD4 /* ResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EFD86A13AFA9AE00948CD4 /* ResizeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E038D21613AFA412000361B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E038D1E813AFA411000361B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E038D1F013AFA411000361B0;
+			remoteInfo = ResizeHD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E038D1F113AFA411000361B0 /* ResizeHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizeHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E038D1F513AFA411000361B0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E038D1F813AFA411000361B0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E038D1F913AFA411000361B0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E038D1FA13AFA411000361B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E038D1FD13AFA411000361B0 /* ResizeHD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizeHD-Info.plist"; sourceTree = "<group>"; };
+		E038D1FF13AFA411000361B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E038D20113AFA411000361B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E038D20313AFA411000361B0 /* ResizeHD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResizeHD-Prefix.pch"; sourceTree = "<group>"; };
+		E038D20513AFA411000361B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E038D20713AFA411000361B0 /* ResizeHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResizeHDAppDelegate.h; sourceTree = "<group>"; };
+		E038D20813AFA411000361B0 /* ResizeHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizeHDAppDelegate.m; sourceTree = "<group>"; };
+		E038D20B13AFA412000361B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E038D21213AFA412000361B0 /* ResizeHDTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizeHDTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E038D21313AFA412000361B0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E038D21A13AFA412000361B0 /* ResizeHDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizeHDTests-Info.plist"; sourceTree = "<group>"; };
+		E038D21C13AFA412000361B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E038D21E13AFA412000361B0 /* ResizeHDTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResizeHDTests.h; sourceTree = "<group>"; };
+		E038D22013AFA412000361B0 /* ResizeHDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizeHDTests.m; sourceTree = "<group>"; };
+		E0AF0BF513AFC9CE00D54FE2 /* Empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Empty.png; path = Resources/Empty.png; sourceTree = "<group>"; };
+		E0AF0BF713AFCAFA00D54FE2 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = Resources/arrow.png; sourceTree = "<group>"; };
+		E0DE1DD513B0899200823DE5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E0DE1DD813B08ADE00823DE5 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		E0EDB46413B1207A00C119F8 /* resizeHD.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = resizeHD.pxm; sourceTree = "<group>"; };
+		E0EFD86913AFA9AE00948CD4 /* ResizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizeView.h; sourceTree = "<group>"; };
+		E0EFD86A13AFA9AE00948CD4 /* ResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E038D1EE13AFA411000361B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E038D1F613AFA411000361B0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E038D20E13AFA412000361B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E038D21413AFA412000361B0 /* SenTestingKit.framework in Frameworks */,
+				E038D21513AFA412000361B0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E038D1E613AFA411000361B0 = {
+			isa = PBXGroup;
+			children = (
+				E0DE1DD813B08ADE00823DE5 /* Icon.icns */,
+				E0DE1DD513B0899200823DE5 /* Icon.png */,
+				E0EDB46413B1207A00C119F8 /* resizeHD.pxm */,
+				E038D1FB13AFA411000361B0 /* ResizeHD */,
+				E0AF0BEF13AFC7B500D54FE2 /* Resources */,
+				E038D21813AFA412000361B0 /* ResizeHDTests */,
+				E038D1F413AFA411000361B0 /* Frameworks */,
+				E038D1F213AFA411000361B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E038D1F213AFA411000361B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E038D1F113AFA411000361B0 /* ResizeHD.app */,
+				E038D21213AFA412000361B0 /* ResizeHDTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E038D1F413AFA411000361B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E038D1F513AFA411000361B0 /* Cocoa.framework */,
+				E038D21313AFA412000361B0 /* SenTestingKit.framework */,
+				E038D1F713AFA411000361B0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E038D1F713AFA411000361B0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E038D1F813AFA411000361B0 /* AppKit.framework */,
+				E038D1F913AFA411000361B0 /* CoreData.framework */,
+				E038D1FA13AFA411000361B0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E038D1FB13AFA411000361B0 /* ResizeHD */ = {
+			isa = PBXGroup;
+			children = (
+				E038D20713AFA411000361B0 /* ResizeHDAppDelegate.h */,
+				E038D20813AFA411000361B0 /* ResizeHDAppDelegate.m */,
+				E038D20A13AFA412000361B0 /* MainMenu.xib */,
+				E0EFD86913AFA9AE00948CD4 /* ResizeView.h */,
+				E0EFD86A13AFA9AE00948CD4 /* ResizeView.m */,
+				E038D1FC13AFA411000361B0 /* Supporting Files */,
+			);
+			path = ResizeHD;
+			sourceTree = "<group>";
+		};
+		E038D1FC13AFA411000361B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E038D1FD13AFA411000361B0 /* ResizeHD-Info.plist */,
+				E038D1FE13AFA411000361B0 /* InfoPlist.strings */,
+				E038D20113AFA411000361B0 /* main.m */,
+				E038D20313AFA411000361B0 /* ResizeHD-Prefix.pch */,
+				E038D20413AFA411000361B0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E038D21813AFA412000361B0 /* ResizeHDTests */ = {
+			isa = PBXGroup;
+			children = (
+				E038D21E13AFA412000361B0 /* ResizeHDTests.h */,
+				E038D22013AFA412000361B0 /* ResizeHDTests.m */,
+				E038D21913AFA412000361B0 /* Supporting Files */,
+			);
+			path = ResizeHDTests;
+			sourceTree = "<group>";
+		};
+		E038D21913AFA412000361B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E038D21A13AFA412000361B0 /* ResizeHDTests-Info.plist */,
+				E038D21B13AFA412000361B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0AF0BEF13AFC7B500D54FE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0AF0BF713AFCAFA00D54FE2 /* arrow.png */,
+				E0AF0BF513AFC9CE00D54FE2 /* Empty.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E038D1F013AFA411000361B0 /* ResizeHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E038D22413AFA412000361B0 /* Build configuration list for PBXNativeTarget "ResizeHD" */;
+			buildPhases = (
+				E038D1ED13AFA411000361B0 /* Sources */,
+				E038D1EE13AFA411000361B0 /* Frameworks */,
+				E038D1EF13AFA411000361B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizeHD;
+			productName = ResizeHD;
+			productReference = E038D1F113AFA411000361B0 /* ResizeHD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E038D21113AFA412000361B0 /* ResizeHDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E038D22713AFA412000361B0 /* Build configuration list for PBXNativeTarget "ResizeHDTests" */;
+			buildPhases = (
+				E038D20D13AFA412000361B0 /* Sources */,
+				E038D20E13AFA412000361B0 /* Frameworks */,
+				E038D20F13AFA412000361B0 /* Resources */,
+				E038D21013AFA412000361B0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E038D21713AFA412000361B0 /* PBXTargetDependency */,
+			);
+			name = ResizeHDTests;
+			productName = ResizeHDTests;
+			productReference = E038D21213AFA412000361B0 /* ResizeHDTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E038D1E813AFA411000361B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = BakingCode;
+			};
+			buildConfigurationList = E038D1EB13AFA411000361B0 /* Build configuration list for PBXProject "ResizeHD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E038D1E613AFA411000361B0;
+			productRefGroup = E038D1F213AFA411000361B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E038D1F013AFA411000361B0 /* ResizeHD */,
+				E038D21113AFA412000361B0 /* ResizeHDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E038D1EF13AFA411000361B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E038D20013AFA411000361B0 /* InfoPlist.strings in Resources */,
+				E038D20613AFA411000361B0 /* Credits.rtf in Resources */,
+				E038D20C13AFA412000361B0 /* MainMenu.xib in Resources */,
+				E0AF0BF613AFC9CE00D54FE2 /* Empty.png in Resources */,
+				E0AF0BF813AFCAFA00D54FE2 /* arrow.png in Resources */,
+				E0DE1DD613B0899300823DE5 /* Icon.png in Resources */,
+				E0DE1DD913B08ADE00823DE5 /* Icon.icns in Resources */,
+				E0EDB46513B1207A00C119F8 /* resizeHD.pxm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E038D20F13AFA412000361B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E038D21D13AFA412000361B0 /* InfoPlist.strings in Resources */,
+				E038D21F13AFA412000361B0 /* ResizeHDTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E038D21013AFA412000361B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E038D1ED13AFA411000361B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E038D20213AFA411000361B0 /* main.m in Sources */,
+				E038D20913AFA411000361B0 /* ResizeHDAppDelegate.m in Sources */,
+				E0EFD86B13AFA9AE00948CD4 /* ResizeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E038D20D13AFA412000361B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E038D22113AFA412000361B0 /* ResizeHDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E038D21713AFA412000361B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E038D1F013AFA411000361B0 /* ResizeHD */;
+			targetProxy = E038D21613AFA412000361B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E038D1FE13AFA411000361B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E038D1FF13AFA411000361B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E038D20413AFA411000361B0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E038D20513AFA411000361B0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E038D20A13AFA412000361B0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E038D20B13AFA412000361B0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E038D21B13AFA412000361B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E038D21C13AFA412000361B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E038D22213AFA412000361B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E038D22313AFA412000361B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E038D22513AFA412000361B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizeHD/ResizeHD-Prefix.pch";
+				INFOPLIST_FILE = "ResizeHD/ResizeHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E038D22613AFA412000361B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizeHD/ResizeHD-Prefix.pch";
+				INFOPLIST_FILE = "ResizeHD/ResizeHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E038D22813AFA412000361B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ResizeHD.app/Contents/MacOS/ResizeHD";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizeHD/ResizeHD-Prefix.pch";
+				INFOPLIST_FILE = "ResizeHDTests/ResizeHDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E038D22913AFA412000361B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ResizeHD.app/Contents/MacOS/ResizeHD";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizeHD/ResizeHD-Prefix.pch";
+				INFOPLIST_FILE = "ResizeHDTests/ResizeHDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E038D1EB13AFA411000361B0 /* Build configuration list for PBXProject "ResizeHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E038D22213AFA412000361B0 /* Debug */,
+				E038D22313AFA412000361B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E038D22413AFA412000361B0 /* Build configuration list for PBXNativeTarget "ResizeHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E038D22513AFA412000361B0 /* Debug */,
+				E038D22613AFA412000361B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E038D22713AFA412000361B0 /* Build configuration list for PBXNativeTarget "ResizeHDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E038D22813AFA412000361B0 /* Debug */,
+				E038D22913AFA412000361B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E038D1E813AFA411000361B0 /* Project object */;
+}
