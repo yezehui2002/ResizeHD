@@ -1,0 +1,13 @@
+ResizeHD
+============
+ResizeHD is app for resize all image @2x and -hd to half. It's very util for resize all images from retina display and images used in cocos2d.
+
+[http://www.bakingcode.com](www.bakingcode.com)
+
+Using ResizeHD
+===================================
+
+1. Open ResizeHD.app
+2. Drag and drop your images into app
+3. And you images save automatically in source folder.
+		
