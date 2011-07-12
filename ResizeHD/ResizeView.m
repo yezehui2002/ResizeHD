@@ -84,7 +84,10 @@
                     [sourceImage drawInRect: NSMakeRect(0, 0, resizeWidth, resizeHeight) fromRect: NSMakeRect(0, 0, originalSize.width, originalSize.height) operation: NSCompositeSourceOver fraction: 1.0];
                     [resizedImage unlockFocus];
                     
-                    NSData *resizedData = [resizedImage TIFFRepresentation];
+                    CIImage *desImage = [CIImage imageWithData:[resizedImage TIFFRepresentation]];
+                    
+                    NSBitmapImageRep *bitmapRep = [[NSBitmapImageRep alloc] initWithCIImage:desImage];
+                    NSData *resizedData = [bitmapRep representationUsingType:NSPNGFileType properties:nil];
                     [resizedData writeToFile: [NSString stringWithFormat:@"%@.png", [zPath substringWithRange:NSMakeRange(0, r.location)]] atomically: NO];
                 }
             }
